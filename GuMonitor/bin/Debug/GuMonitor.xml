@@ -1,0 +1,461 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GuMonitor
+</name>
+</assembly>
+<members>
+<member name="T:GuMonitor.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:GuMonitor.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:GuMonitor.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:GuMonitor.My.Resources.Resources.kick">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GuMonitor.My.Resources.Resources.Kiect_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GuMonitor.My.Resources.Resources.Logop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GuMonitor.My.Resources.Resources.NotSeated">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GuMonitor.My.Resources.Resources.NotTracked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GuMonitor.My.Resources.Resources.punch">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GuMonitor.My.Resources.Resources.Seated">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GuMonitor.My.Resources.Resources.wrongkick1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GuMonitor.My.Resources.Resources.wrongpunch1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet.UserTablesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet.UserTablesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet.UserTablesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSetTableAdapters.UserTablesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(GuMonitor.GuMonitorDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(GuMonitor.GuMonitorDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(GuMonitor.GuMonitorDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSetTableAdapters.TableAdapterManager.UpdateAll(GuMonitor.GuMonitorDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet1.User_CatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet1.User_CatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet1.User_CatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet1TableAdapters.User_CatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(GuMonitor.GuMonitorDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(GuMonitor.GuMonitorDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(GuMonitor.GuMonitorDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet1TableAdapters.TableAdapterManager.UpdateAll(GuMonitor.GuMonitorDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet2.User_CatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet2.User_CatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet2.User_CatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet2TableAdapters.User_CatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(GuMonitor.GuMonitorDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(GuMonitor.GuMonitorDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(GuMonitor.GuMonitorDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet2TableAdapters.TableAdapterManager.UpdateAll(GuMonitor.GuMonitorDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet3.UserTablesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet3.UserTablesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet3.UserTablesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet3TableAdapters.UserTablesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(GuMonitor.GuMonitorDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(GuMonitor.GuMonitorDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(GuMonitor.GuMonitorDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet3TableAdapters.TableAdapterManager.UpdateAll(GuMonitor.GuMonitorDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet4.SessionReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet4.SessionReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet4.SessionReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet4TableAdapters.SessionReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(GuMonitor.GuMonitorDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(GuMonitor.GuMonitorDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(GuMonitor.GuMonitorDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet4TableAdapters.TableAdapterManager.UpdateAll(GuMonitor.GuMonitorDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet5.SessionReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet5.SessionReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet5.SessionReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet5TableAdapters.SessionReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(GuMonitor.GuMonitorDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(GuMonitor.GuMonitorDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(GuMonitor.GuMonitorDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GuMonitor.GuMonitorDataSet5TableAdapters.TableAdapterManager.UpdateAll(GuMonitor.GuMonitorDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GuMonitor.GuMonitorDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
